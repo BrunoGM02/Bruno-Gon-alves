@@ -1,0 +1,848 @@
+/*
+body{
+    background-image: url(../imagem/paoback.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+ 
+*/
+/********************** FORMATAÇÃO **********************/
+h1, h2, h3{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+
+/********************** CABEÇALHO **********************/
+
+#container_cabecalho{
+    height: 190px;
+    width: 100%;
+   background-color: chocolate;
+/*    border: 1px solid black;*/
+    
+}
+
+/*********** MENU ***********/
+
+.menu{
+    height: 190px;
+    width: 1440px;
+    background-color: bisque;
+/*    border: 1px solid black;    */
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    height: 180px;
+    width: 180px;
+    background-image: url(../imagem/logo.png);
+    background-size: 100% 100%;
+    float: left;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.botoes{
+    height: 53px;
+    width: 950px;
+    background-color: bisque;
+   float: left;
+    
+    margin-top: 70px;
+/*    border: 1px solid black;*/
+    
+}
+.home{
+    height: 50px;
+    width: 125px;
+/*    background-color: #ba9011;*/
+    float: left;
+   
+    margin-left: 10px;
+/*    border: 1px solid black;*/
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-family: arial;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+
+
+
+.login{
+    height: 50px;
+    width: 280px;
+    float: left;
+/*    background-color: blue;*/
+    margin-left: 8px;
+    margin-top: 70px;
+    
+}
+
+.usuario{
+    height: 50px;
+    width: 100px;
+/*    background-color: aqua;*/
+    float: left;
+    font-weight: bold;
+}
+
+.senha{
+    height: 50px;
+    width: 100px;
+/*    background-color: chartreuse;*/
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.submit{
+/*
+    height: 25px;
+    width: 60px;
+    background-color: darkmagenta;
+*/
+    float: left;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+    
+
+/********************** CONTAINER_GERAL **********************/
+    
+#container_geral{
+    min-height: 1404px;
+    max-height: inherit;
+    width: 1440px;
+/*    border: 1px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+/*    background-color: firebrick;*/
+    display: block;
+}
+
+/*********** CONTAINER_SLIDER ***********/
+
+#container_slider{
+    height: 400px;
+    width: 1440px;
+/*    border: 1px solid black;*/
+    background-color: ;
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+/*********** CONTAINER_CONTEUDO ***********/
+
+#container_conteudo{
+    height: 1000px;
+    width: 1440px;
+/*    border: 1px solid black;*/
+    background-color: blanchedalmond;
+}
+
+
+
+
+/*********** CLASS_CARD ***********/
+
+.card{
+    height: 260px;
+    width: 260px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 90px;
+    margin-top: 150px;
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+
+.card1, .card2{
+    background: url(../imagem/card1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card2{
+    background: url(../imagem/card2.jpg);
+      background-size: 100% 100%;
+}
+.card3{
+    background: url(../imagem/card3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card4{
+    background: url(../imagem/card4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card5{
+    background: url(../imagem/card5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card6{
+    background: url(../imagem/card6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img_card{
+    height: 125px;
+    width: 125px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.descricao_card{
+    height: 100px;
+    width: 230px;
+/*    border: 1px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    box-sizing: border-box;
+}
+
+.nome_card, .descricao2_card,.preco_card, .detalhe_card{
+    height: 15px;
+    width: 200px;
+/*
+    border: 1px solid black;
+    background-color: brown;
+*/
+    margin-top: 8px;
+    margin-left: 15px;
+    font-family: arial;
+}
+
+.detalhe_card{
+    width: 60px;
+    margin-left: 160px;
+    margin-top: 13px;
+}
+/*********** CONTAINER_REDES_SOCIAIS ***********/
+
+#container_rs{
+    height: 355px;
+    width: 90px;
+/*    border: 1px solid black;*/
+    margin-left: 1450px;
+    margin-top: -1160px;
+    position: fixed;
+}
+.icone_insta, .icone_facebook, .icone_youtube{
+    height: 105px;
+    width: 105px;
+/*    border: 1px solid black;
+/*    background-color: red;*/
+    
+    margin-left: auto;
+    background-image: url(../imagem/insta.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.icone_facebook{
+     height: 75px;
+    width: 75px;
+   background-image: url(../imagem/facebook.png); 
+    margin-left: 16px;
+    box-sizing: border-box;
+  
+}
+.icone_youtube{
+    height: 75px;
+    width: 75px;
+   background-image: url(../imagem/youtube.png); 
+    margin-left: 16px;
+}
+/*********** MENU_VERTICAL ***********/
+
+.menu_vertical{
+    height: inherit;
+    width: 300px;
+/*    border: 1px solid black;*/
+    float: left;
+    background-color: blanchedalmond;
+    
+}
+li{
+    width: 300px;
+    height: 80px;
+/*    border: 1px solid black;*/
+/*    background-color: green;*/
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-weight: bold;
+}
+
+/********************** CONTAINER_FOOTER **********************/
+
+#container_footer{
+    height: 100px;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+/*      border: 1px solid black;*/
+    background-color: bisque;;
+/*    border: 1px solid #f7941e;*/
+    border-top: 2px solid #f7941e;;
+}
+
+.sistema_interno{
+    height: 60px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;  
+/*    border: 1px solid black;*/
+    color: black;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 13px;
+    font-family: fantasy;
+    
+}
+
+
+.contatos{
+    height: 15px;
+    width: 740px;
+/*    background-color: aqua;*/
+    margin-left: 80px;;
+    margin-top: 60px;
+/*    border: 1px solid black;*/
+    font-family: arial;
+    float: left;
+    
+}
+
+.img_download{
+    height: 70px;
+    width: 100px;
+/*    background-color: red;*/
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-image: url(../imagem/download.png);
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    
+}
+
+.baixe_o_app{
+    height: 60px;
+    width: 200px; 
+    margin-top: 20px;
+    margin-left: 15px;
+/*    border: 1px solid black;*/
+    color: black;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 13px;
+    font-family: fantasy;
+    float: left;
+    
+    
+}
+
+/************************************* PAGINA SOBRE NÓS *************************************/
+
+#container_conteudo_sobre{
+    height: 1500px;
+    width: 1440px;
+    border-top: 2px solid #f7941e;;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo_subtitulo_sobre, .titulo_subtitulo_historia{
+    height: 100px;
+    width: inherit;
+/*    background-color: aqua;*/
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.titulosobre, .titulohistoria{
+    text-align: center;
+    font-size: 70px;
+    font-family: gabriola regular;
+    font-style: italic;
+    
+}
+
+.subtextsobre, .subtexthistoria{
+    text-align: center;
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    color: #807d75;
+}
+
+#container_conceito{
+    height: 750px;
+    width: 720px;
+/*    border: 1px solid black;*/
+    box-sizing: border-box;
+    float: left;
+    margin-top: 10px;
+}
+
+#container_conceito_foto{
+    height: 750px;
+    width: 720px;
+/*    border: 1px solid black;*/
+    box-sizing: border-box;
+    float: left;
+    margin-top: 10px;
+    background: url(../imagem/sobre.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.txt_conceito, .txt_historia, .txt_dica{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+#container_nossa_historia{
+    height: 615px;
+    width: inherit;
+    margin-top: 10px;
+/*    background-color: #f7941e;*/
+    float: left;
+    
+}
+
+
+
+/************************************* PAGINA EVENTOS *************************************/
+
+
+
+#container_conteudo_eventos{
+    height: 1500px;
+    width: 1440px;
+    border-top: 2px solid #f7941e;;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini_descricao{
+    height: 70px;
+    width: 1410px;
+/*    background-color: brown;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-family: arial;
+    font-size: 22px;   
+}
+
+.titulo_salgado, .titulo_doces, .titulo_paes, .titulo_dicas{
+    width: 600px;
+    height: 70px;
+    border: 1px solid #afc7c9;
+    margin-left: 80px;
+    float: left; 
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #f5f5f5;
+    
+}
+.titulo_dicas{
+    width: 1280px;
+}
+
+.salgados, .doces, .paes, .dicas{
+    width: 600px;
+    height: 900px;
+    margin-left: 80px;
+    margin-top: 10px;
+/*    background-color: red;*/
+    float: left;
+    overflow: auto;
+
+}
+.doces, .paes{
+    height: 400px;
+}
+
+.dicas{
+    height: 300px;
+    width: 1280px;
+}
+
+
+.formli{
+    height: 60px;
+    font-family: arial;
+    margin-left: 90px;
+    padding-top: 0px;
+    text-align: left;
+    margin-top: 7px;
+   
+}
+
+.txt_dica{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+
+/************************************* PAGINA LOJAS *************************************/
+
+#container_conteudo_lojas{
+    height: 1550px;
+    width: 1440px;
+    border-top: 2px solid #f7941e;;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo_lojas, .lojas{
+    width: 1000px;
+    height: 60px;
+    border: 1px solid #afc7c9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #f5f5f5;   
+}
+
+.lojas{
+    width: 1400px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+}
+
+.nome_lojas{
+    width: 1250px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+/*    background-color: red;*/
+}
+
+.descricao_loja{
+    width: 1380px;
+    height: 200px;
+    margin-top: 10px;
+/*    background-color: aqua;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapa, .mapa2, .lado_de_fora, .lado_de_fora2{
+     width: 650px;
+    height: 400px;
+/*    background-color: green;*/
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+.lado_de_fora{
+    margin-left: 100px;
+    background-image: url(../imagem/fora.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lado_de_fora2{
+    margin-left: 100px;
+    background-image: url(../imagem/fora2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.descricao_lojas{
+    min-width: 30px;
+    max-width: auto;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: arial;
+}
+
+/************************************* PAGINA delivery *************************************/
+
+#container_conteudo_delivery{
+    height: 1050px;
+    width: 1440px;
+    border-top: 2px solid #f7941e;;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo_delivery{
+    width: 1300px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 30px;
+    border-bottom: 1px solid #afc7c9;
+}
+
+.delivery_matriz, .delivery_jardim{
+    width: 650px;
+    height: 150px;
+    margin-left: 45px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    float: left;
+     border: 1px solid #afc7c9;
+    border-radius: 7px;
+}
+
+.delivery_jardim{
+    margin-left: 50px;
+   
+}
+
+.minimapa_matriz, .minimapa_jardim{
+    width: 650px;
+    height: 650px;
+    margin-left: 45px;
+    margin-top: 10px;
+/*    background-color: red;*/
+    float: left;
+    background-image: url(../imagem/matriz.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.minimapa_jardim{
+    background-image: url(../imagem/jardim.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.descricao_delivery, .descricao_delivery_titulo{
+    min-width: 30px;
+    max-width: auto;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 8px;
+    
+    font-size: 25px;
+    font-family: arial;
+}
+.descricao_delivery_titulo{
+font-weight: bold;
+color: red;
+}
+
+
+/************************************* PAGINA FIDELIDADE *************************************/
+
+#container_conteudo_fidelidade{
+    height: 900px;
+    width: 1440px;
+    border-top: 2px solid #f7941e;;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.titulo_fidelidade{
+    width: 1440px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    box-sizing: border-box;
+    font-family: gabriola regular;
+    font-size: 60px;
+  
+    background-color: #f5f5f5;
+    text-align: center;
+    
+}
+
+.beneficios{
+    width: 1440px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    box-sizing: border-box;
+    font-family: gabriola regular;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.pontos1, .pontos2, .pontos3{
+    width: 400px;
+    height: 250px;
+    background-color: red;
+    margin-left: 60px;;
+    float: left;
+    margin-top: 50px;
+    background-image: url(../imagem/ponto1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pontos2{
+    background-image: url(../imagem/ponto2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pontos3{
+    background-image: url(../imagem/ponto3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+/************************************* PAGINA CONTATO *************************************/
+
+#container_conteudo_contato{
+    height: 1300px;
+    width: 1440px;
+    border-top: 2px solid #f7941e;;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entre_em_contato{
+    width: 1400px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-family: gabriola regular;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #f5f5f5;
+    border: 1px solid #afc7c9 ;
+}
+.foto_contato{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+    background-image: url(../imagem/fotocontato.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.duvidas_contato{
+    width: 650px;
+    height: 1040px;
+    margin-left: 15px;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    float: left;
+     border: 1px solid #afc7c9;
+    border-radius: 7px;
+       box-sizing: border-box;
+    font-family: arial;
+    font-size: 30px;
+    float: left;
+}
+
+.nome_contato, .nome_contato1{
+    width: 300px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  
+   
+}
+
+.nome_contato1{
+    margin-left: 160px;
+    width: 400px;
+    
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
